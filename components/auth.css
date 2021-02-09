@@ -1,0 +1,13 @@
+.maincontainer {
+    width: 100px;
+    height: 100px;
+    /* background: white; */
+    position: fixed;
+    top: 50%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.textfield {
+    border-bottom: 1px solid;
+}

@@ -4,9 +4,9 @@
     "slug": "MeToo",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/metoo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/metoo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,17 +16,20 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/metoo.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "googleServicesFile": "./ggl.json",
+      "useNextNotificationsApi": true,
+      "package": "com.nathu.MeToo"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/metoo.png"
+    },
+    "ios": {
+      "bundleIdentifier": "com.nathu.MeToo"
     }
   }
 }
